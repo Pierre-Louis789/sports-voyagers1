@@ -17,4 +17,194 @@
   <link rel="stylesheet" href="assets/css/hero.css" />
   <link rel="stylesheet" href="assets/css/featured.css" />
   <link rel="stylesheet" href="assets/css/navigation.css" />
-  
+
+  <!-- Font Awesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+  <!-- Load Animation -->
+  <script>
+    window.addEventListener('DOMContentLoaded', () => {
+      document.body.classList.add('loaded');
+    });
+  </script>
+</head>
+
+<body>
+
+  <!-- ===============================
+       HEADER & NAVIGATION
+  ================================== -->
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">SPORTS<span class="logo-highlight">VOYAGER</span></h1>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+      <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </label>
+
+      <div class="nav-wrapper">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="trips.html" class="active" aria-current="page">Destinations</a></li>
+          <li><a href="info.html">Info</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ===============================
+       PAGE INTRO
+  ================================== -->
+  <section class="hero" role="banner" aria-label="Football weekends across Europe">
+    <div class="hero-content">
+      <h1>Football Weekends Across Europe</h1>
+      <p>From derby days to historic stadium tours — find your next matchday escape.</p>
+    </div>
+  </section>
+
+  <main>
+
+    <!-- ===============================
+         FEATURED TRIPS
+    ================================== -->
+    <section class="featured-trips" aria-labelledby="destinations-heading" role="region">
+      <h2 id="destinations-heading" class="heading-centered">All Destinations</h2>
+      <div class="trip-grid">
+
+        <!-- Trip Cards -->
+        <article class="trip-card">
+          <img src="assets/images/trips/real-madrid.jpg" alt="Madrid El Clásico weekend" />
+          <div class="trip-overlay">
+            <h3><a href="trips/madrid-clasico.html">Madrid El Clásico</a></h3>
+            <p>El Clásico intensity at the Santiago Bernabéu.</p>
+            <a href="clasico-matchday.html" class="cta-button">Explore Madrid</a>
+          </div>
+        </article>
+
+        <article class="trip-card">
+          <img src="assets/images/trips/dortmund.jpg" alt="Dortmund Bundesliga experience at Signal Iduna Park" />
+          <div class="trip-overlay">
+            <h3><a href="trips/dortmund-weekend.html">Dortmund Weekend</a></h3>
+            <p>Stand beneath the Yellow Wall, 80,000 voices rise in unison. Signal Iduna Park isn’t just a stadium.</p>
+          <a href="dortmund-matchday-highlight.html" class="cta-button">Explore Dortmund</a>
+          </div>
+        </article>
+
+        <article class="trip-card">
+          <img src="assets/images/trips/liverpool.jpg" alt="Liverpool legends tour at Anfield" />
+          <div class="trip-overlay">
+            <h3><a href="trips/liverpool-legends.html">Liverpool Legends Tour</a></h3>
+            <p>Relive Anfield’s legacy through the Shankly Gates.</p>
+            <a href="#Liverpool" class="cta-button">Explore Liverpool</a>
+          </div>
+        </article>
+
+        <article class="trip-card">
+          <img src="assets/images/trips/rome.jpg" alt="Rome derby experience at Stadio Olimpico" />
+          <div class="trip-overlay">
+            <h3><a href="trips/rome-derby.html">Rome Derby</a></h3>
+            <p>Witness Lazio vs Roma ignite the Eternal City.</p>
+            <a href="#Rome" class="cta-button">Explore Rome</a>
+          </div>
+        </article>
+
+        <article class="trip-card">
+          <img src="assets/images/trips/bayern-munich.jpg" alt="Munich Bundesliga experience" />
+          <div class="trip-overlay">
+            <h3><a href="trips/munich-weekend.html">Munich Weekend</a></h3>
+            <p>Bavarian charm meets Bundesliga brilliance at Allianz Arena.</p>
+            <a href="#Munich" class="cta-button">Explore Munich</a>
+          </div>
+        </article>
+
+        <article class="trip-card">
+          <img src="assets/images/trips/paris.jpg" alt="Paris PSG matchday escape" />
+          <div class="trip-overlay">
+            <h3><a href="trips/paris-psg.html">Paris Matchday</a></h3>
+            <p>Style, speed, and Paris magic at Parc des Princes.</p>
+            <a href="#Paris" class="cta-button">Explore Paris</a>
+          </div>
+        </article>
+
+        <article class="trip-card">
+          <img src="assets/images/trips/napoli.jpg" alt="Napoli Weekend by the Bay of Naples" />
+          <div class="trip-overlay">
+            <h3><a href="trips/napoli-weekend.html">Napoli Weekend</a></h3>
+            <p>Espresso, alleyway chants, and coastal drama.</p>
+            <a href="#Napoli" class="cta-button">Explore Napoli</a>
+          </div>
+        </article>
+
+        <article class="trip-card">
+          <img src="assets/images/trips/ajax.jpg" alt="Ajax Amsterdam at Johan Cruijff ArenA" />
+          <div class="trip-overlay">
+            <h3><a href="trips/ajax-weekend.html">Ajax Amsterdam</a></h3>
+            <p>Total football, red-and-white legacy, and echoes of Cruyff. A weekend in Amsterdam means history, style, and a seat at the Johan Cruijff Arena.</p>
+            <a href="#Amsterdam" class="cta-button">Explore Amsterdam</a>
+          </div>
+        </article>
+
+        <article class="trip-card">
+          <img src="assets/images/trips/glasgow.jpg" alt="Glasgow football culture at Celtic Park and Ibrox Stadium" />
+          <div class="trip-overlay">
+            <h3><a href="trips/glasgow-football.html">Glasgow Football Weekend</a></h3>
+            <p>From the thunder of the Old Firm derby to grassroots grit in the East End, Glasgow lives and breathes football.</p>
+            <a href="#Glasgow" class="cta-button">Explore Glasgow</a>
+          </div>
+        </article>
+
+        <article class="trip-card">
+          <img src="assets/images/trips/manchester-city.jpg" alt="Manchester City Etihad Stadium tour and matchday experience" />
+          <div class="trip-overlay">
+            <h3><a href="trips/manchester-city.html">Manchester City Experience</a></h3>
+            <p>Sky Blue spectacle at the Etihad Stadium.</p>
+            <a href="#Manchester" class="cta-button">Explore Manchester</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ===============================
+         CTA BAR WITH ICONS
+    ================================== -->
+    <section class="cta-bar-alt" aria-labelledby="cta-heading">
+      <h2 id="cta-heading" class="heading-centered">Your Next Matchday Escape Awaits</h2>
+      <p class="cta-subtext">From derby drama to stadium serenity, SportsVoyager curates unforgettable weekends for true fans.</p>
+      <div class="cta-buttons">
+        <a href="trips.html" class="btn-secondary">🧳 Browse Destinations</a>
+        <a href="info.html" class="btn-secondary">📍 How It Works</a>
+        <a href="contact.html" class="btn-secondary">✉️ Contact Us</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===============================
+       FOOTER
+  ================================== -->
+  <footer role="contentinfo" class="site-footer">
+    <div class="footer-content">
+      <p>&copy; 2025 <strong>SportsVoyager</strong> — Designed for fans, built for impact.</p>
+      <ul class="social-links" aria-label="Social media">
+  <li><a href="https://twitter.com/" target="_blank" rel="noopener" aria-label="Twitter">
+    <i class="fab fa-twitter"></i>
+  </a></li>
+  <li><a href="https://instagram.com/" target="_blank" rel="noopener" aria-label="Instagram">
+    <i class="fab fa-instagram"></i>
+  </a></li>
+  <li><a href="https://facebook.com/" target="_blank" rel="noopener" aria-label="Facebook">
+    <i class="fab fa-facebook"></i>
+  </a></li>
+</ul>
+    </div>
+  </footer>
+
+</body>
+</html>
