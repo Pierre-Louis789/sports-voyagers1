@@ -5,3 +5,130 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="SportsVoyager curates unforgettable football weekends across Europe’s most iconic destinations." />
   <title>Contact – SportsVoyager</title>
+
+  <!-- Modular Stylesheets -->
+  <link rel="stylesheet" href="assets/css/variables.css" />
+  <link rel="stylesheet" href="assets/css/base.css" />
+  <link rel="stylesheet" href="assets/css/typography.css" />
+  <link rel="stylesheet" href="assets/css/buttons.css" />
+  <link rel="stylesheet" href="assets/css/layout.css" />
+  <link rel="stylesheet" href="assets/css/components.css" />
+  <link rel="stylesheet" href="assets/css/responsive.css" />
+  <link rel="stylesheet" href="assets/css/hero.css" />
+  <link rel="stylesheet" href="assets/css/featured.css" />
+  <link rel="stylesheet" href="assets/css/navigation.css" />
+
+  <!-- Font Awesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+  <!-- Load Animation -->
+  <script>
+    window.addEventListener('DOMContentLoaded', () => {
+      document.body.classList.add('loaded');
+    });
+  </script>
+</head>
+
+<body>
+
+  <!-- ===============================
+       HEADER & NAVIGATION
+  ================================== -->
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">SPORTS<span class="logo-highlight">VOYAGER</span></h1>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+      <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </label>
+
+      <div class="nav-wrapper">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="trips.html">Destinations</a></li>
+          <li><a href="info.html">Info</a></li>
+          <li><a href="contact.html" class="active" aria-current="page">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ===============================
+       HERO SECTION
+  ================================== -->
+  <section class="hero" role="banner" aria-label="Contact SportsVoyager">
+    <div class="hero-content">
+      <h1>Curated Football Weekends</h1>
+      <p>From derby days to stadium tours — discover your next matchday escape across Europe.</p>
+      <a href="trips.html" class="btn-primary">Explore Destinations</a>
+    </div>
+  </section>
+
+  <!-- ===============================
+       MAIN CONTENT
+  ================================== -->
+  <main>
+
+    <!-- CONTACT FORM -->
+    <section class="featured-trips gradient-panel" aria-labelledby="contact-heading">
+      <h2 id="contact-heading" class="heading-centered">Get in Touch</h2>
+      <form class="contact-form" action="#" method="post" aria-label="Contact form">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Tell us about your dream sports trip..." required></textarea>
+
+        <button type="submit" class="btn-secondary">Send Message</button>
+        <div id="form-message" style="display:none; color: var(--accent); font-weight: bold; margin-top: 1rem;">
+          ✅ Message sent! We'll get back to you soon.
+        </div>
+      </form>
+    </section>
+
+    <!-- CTA BAR -->
+    <section class="cta-bar-alt" aria-labelledby="cta-heading">
+      <h2 id="cta-heading" class="heading-centered">Your Next Matchday Escape Awaits</h2>
+      <p class="cta-subtext">From derby drama to stadium serenity, SportsVoyager curates unforgettable weekends for true fans.</p>
+      <div class="cta-buttons">
+        <a href="trips.html" class="btn-secondary">🧳 Browse Destinations</a>
+        <a href="info.html" class="btn-secondary">📍 How It Works</a>
+        <a href="contact.html" class="btn-secondary">✉️ Contact Us</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===============================
+       FOOTER
+  ================================== -->
+  <footer role="contentinfo" class="site-footer">
+    <div class="footer-content">
+      <p>&copy; 2025 <strong>SportsVoyager</strong> — Designed for fans, built for impact.</p>
+      <ul class="social-links" aria-label="Social media">
+        <li><a href="https://twitter.com/" target="_blank" rel="noopener" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="https://instagram.com/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="https://facebook.com/" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook"></i></a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script>
+    document.querySelector('.contact-form').addEventListener('submit', function(event) {
+      event.preventDefault();
+      document.getElementById('form-message').style.display = 'block';
+      this.reset();
+    });
+  </script>
+
+</body>
+</html>
