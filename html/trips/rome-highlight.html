@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="SportsVoyager curates unforgettable football weekends across Europe’s most iconic destinations." />
+  <title>Destinations – SportsVoyager</title>
+
+  <!-- Modular Stylesheets -->
+  <link rel="stylesheet" href="assets/css/variables.css" />
+  <link rel="stylesheet" href="assets/css/base.css" />
+  <link rel="stylesheet" href="assets/css/typography.css" />
+  <link rel="stylesheet" href="assets/css/buttons.css" />
+  <link rel="stylesheet" href="assets/css/layout.css" />
+  <link rel="stylesheet" href="assets/css/components.css" />
+  <link rel="stylesheet" href="assets/css/responsive.css" />
+  <link rel="stylesheet" href="assets/css/hero.css" />
+  <link rel="stylesheet" href="assets/css/featured.css" />
+  <link rel="stylesheet" href="assets/css/navigation.css" />
+  <link rel="stylesheet" href="assets/css/matchday-highlight.css" />
+
+  <!-- Font Awesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+  <!-- Load Animation -->
+  <script>
+    window.addEventListener('DOMContentLoaded', () => {
+      document.body.classList.add('loaded');
+    });
+  </script>
+</head>
+
+<body>
+
+  <!-- ===============================
+       HEADER & NAVIGATION
+  ================================== -->
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">SPORTS<span class="logo-highlight">VOYAGER</span></h1>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+      <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </label>
+
+      <div class="nav-wrapper">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="trips.html">Destinations</a></li>
+          <li><a href="info.html">Info</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ===============================
+       PAGE INTRO
+  ================================== -->
+  <section class="hero" role="banner" aria-label="Football weekends across Europe">
+    <div class="hero-content">
+      <h1>Football Weekends Across Europe</h1>
+      <p>From derby days to historic stadium tours — find your next matchday escape.</p>
+    </div>
+  </section>
+
+  <main>
+    <!-- ===============================
+         INTRO SECTION
+    ================================== -->
+    <section class="section-intro">
+      <h2><strong>Matchday Highlight</strong></h2>
+    </section>
+
+    <!-- ===============================
+         MATCHDAY HIGHLIGHT – ROME
+    ================================== -->
+    <section class="matchday-highlight" role="region" aria-label="Rome Eternal Derby Weekend">
+      <div class="matchday-overlay">
+        <h1>Rome Eternal Derby Weekend</h1>
+        <p class="matchday-intro">
+          Witness the fire of Roma vs Lazio in the heart of the Eternal City.<br>
+          From gladiator murals to the roar of Stadio Olimpico, this is football with ancient soul.
+        </p>
+
+        <h2>What’s Included</h2>
+        <ul class="matchday-list">
+          <li>🎟️ Stadium game ticket</li>
+          <li>🏛️ Colosseum and city heritage walk</li>
+          <li>🔗 Booking links for tickets & hotels</li>
+          <li>❤️ Fan culture and derby traditions</li>
+        </ul>
+
+        <a href="trips.html" class="btn-secondary">← Back to Destinations</a>
+      </div>
+    </section>
+
+    <!-- ===============================
+         CTA BAR WITH ICONS
+    ================================== -->
+    <section class="cta-bar-alt" aria-labelledby="cta-heading">
+      <h2 id="cta-heading" class="heading-centered">Your Next Matchday Escape Awaits</h2>
+      <p class="cta-subtext">From derby drama to stadium serenity, SportsVoyager curates unforgettable weekends for true fans.</p>
+      <div class="cta-buttons">
+        <a href="trips.html" class="btn-secondary">🧳 Browse Destinations</a>
+        <a href="info.html" class="btn-secondary">📍 How It Works</a>
+        <a href="contact.html" class="btn-secondary">✉️ Contact Us</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===============================
+       FOOTER
+  ================================== -->
+  <footer role="contentinfo" class="site-footer">
+    <div class="footer-content">
+      <p>&copy; 2025 <strong>SportsVoyager</strong> — Designed for fans, built for impact.</p>
+      <ul class="social-links" aria-label="Social media">
+        <li><a href="https://twitter.com/" target="_blank" rel="noopener" aria-label="Twitter">
+          <i class="fab fa-twitter"></i>
+        </a></li>
+        <li><a href="https://instagram.com/" target="_blank" rel="noopener" aria-label="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a></li>
+        <li><a href="https://facebook.com/" target="_blank" rel="noopener" aria-label="Facebook">
+          <i class="fab fa-facebook"></i>
+        </a></li>
+      </ul>
+    </div>
+  </footer>
+
+</body>
+</html>
