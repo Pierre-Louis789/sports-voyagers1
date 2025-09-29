@@ -1,0 +1,83 @@
+/* ============================================================
+   SportsVoyager Buttons
+   Primary, Secondary, CTA Variants
+============================================================ */
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--accent-hover);
+}
+
+button, .btn {
+  font-family: var(--font-main);
+  background-color: var(--accent);
+  color: var(--bg-dark);
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover, .btn:hover {
+  background-color: var(--accent-hover);
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  background-color: var(--accent);
+  color: var(--bg-dark);
+  font-weight: bold;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: var(--accent-hover);
+  color: var(--bg-dark);
+}
+
+.cta-bar .btn {
+  background-color: var(--bg-dark);
+  color: var(--bg-dark);
+  font-weight: bold;
+  border-radius: 4px;
+  padding: 0.85rem 2rem;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.cta-bar .btn:hover {
+  background-color: var(--blue-navy); /* Optional hover tone */
+  color: var(--text-light);
+}
+.btn-secondary {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: var(--accent);
+  color: var(--bg-dark);
+  border: none;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn-secondary:hover {
+  background-color: var(--accent-hover);
+  color: var(--bg-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}

@@ -1,0 +1,73 @@
+/* ============================================================
+   SportsVoyager Featured Sections
+   Destination, Preview, Reveal Animations
+============================================================ */
+
+.featured-preview h2 {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  font-weight: 700;
+  font-size: 2.2rem;
+  letter-spacing: 0.5px;
+  margin-top: 4rem;
+  margin-bottom: 2.5rem;
+  color: var(--accent);
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+body.loaded .featured-preview h2 {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.featured-destination {
+  background: var(--bg-light);
+  padding: 4rem 2rem;
+}
+
+.destination-highlight {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+}
+
+.destination-highlight figure {
+  flex: 1 1 40%;
+  margin: 0;
+}
+
+.destination-highlight img {
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.destination-highlight img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.15);
+}
+
+.highlight-text {
+  flex: 1 1 50%;
+  padding: 1rem;
+}
+
+.highlight-text h3 {
+  font-size: 1.6rem;
+  font-family: var(--font-heading);
+  color: var(--accent);
+  margin-bottom: 0.5rem;
+}
+
+.highlight-text p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--text-main);
+}
