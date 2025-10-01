@@ -2,22 +2,30 @@
   background-color: var(--accent-light);
   padding: 2rem;
   text-align: center;
-  border-bottom: 1px solid #eee;
+  border-bottom: none;
   font-family: 'Inter', sans-serif;
 }
+
 .section-intro h2 {
+  position: relative;
+  display: inline-block;
   font-size: 2rem;
   margin-bottom: 0.5rem;
   color: var(--accent);
 }
-.section-intro p {
-  font-size: 1rem;
-  color: #666;
+
+.section-intro h2::after {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 4px;
+  background: var(--accent);
+  margin: 1rem auto 0;
+  border-radius: 2px;
 }
 
 
 .matchday-highlight {
-  background: url('../images/trips/real-madrid.jpg') no-repeat center center;
   background-size: cover;
   background-position: center;
   min-height: 100vh;
@@ -28,8 +36,68 @@
   text-align: center;
   position: relative;
   color: #fff;
-
 }
+
+.real-madrid-highlight {
+  background-image: url('../images/trips/real-madrid.jpg');
+  filter: brightness(0.85) contrast(0.95);
+}
+
+.ajax-highlight {
+  background-image: url('../images/trips/ajax.jpg');
+  filter: brightness(0.85) contrast(0.95);
+}
+
+.barcelona-highlight {
+  background-image: url('../images/trips/barcelona.jpg');
+  filter: brightness(0.85) contrast(0.95);
+}
+
+.bayern-munich-highlight {
+  background-image: url('../images/trips/bayern-munich.jpg');
+  filter: brightness(0.85) contrast(0.95);
+}
+
+.dortmund-highlight {
+  background-image: url('../images/trips/dortmund.jpg');
+  filter: brightness(0.85) contrast(0.95);
+}
+
+.glasgow-highlight {
+  background-image: url('../images/trips/glasgow.jpg');
+  filter: brightness(0.85) contrast(0.95);
+}
+
+.lisbon-highlight {
+  background-image: url('../images/trips/lisbon.jpg');
+  filter: brightness(0.85) contrast(0.95);
+}
+
+.liverpool-highlight {
+  background-image: url('../images/trips/liverpool.jpg');
+  filter: brightness(0.85) contrast(0.95);
+}
+
+.manchester-city-highlight {
+  background-image: url('../images/trips/manchester-city.jpg');
+  filter: brightness(0.85) contrast(0.95);
+}
+
+.naples-highlight {
+  background-image: url('../images/trips/naples.jpg');
+  filter: brightness(0.85) contrast(0.95);
+}
+
+.paris-highlight {
+  background-image: url('../images/trips/paris.jpg');
+  filter: brightness(0.85) contrast(0.95);
+}
+
+.rome-highlight {
+  background-image: url('../images/trips/rome.jpg');
+  filter: brightness(0.85) contrast(0.95);
+}
+
 
 .matchday-overlay {
   max-width: 720px;
