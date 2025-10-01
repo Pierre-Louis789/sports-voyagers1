@@ -1,0 +1,40 @@
+/* ============================================================
+   SportsVoyager Variables
+   
+  Modular variables for color, typography, layout, and component styling.
+  Used across all pages for consistent editorial tone and scalable design.
+
+
+============================================================ */
+
+:root {
+  /* Core Brand Tones */
+  --sandstone-warm: #f4e9dc;
+  --stadium-blue: #1e3a5f; /* Primary brand blue */
+  --terracotta-bold: #d16d4a; /* Accent color */
+  --gray-muted: #a9a9a9;
+
+  /* Text & Backgrounds */
+  --text-main: #faedd4;
+  --text-muted: var(--gray-muted);
+  --text-light: #ffffff;
+  --text-dark: #1a1a1a;
+  --bg-light: #fffdf9;
+  --bg-neutral: var(--sandstone-warm);
+  --bg-panel: var(--stadium-blue);
+  --bg-dark: #1e3a5f;
+
+  /* Accent & CTA */
+  --accent: var(--terracotta-bold);
+  --accent-hover: #c85c3a;
+
+  /* Cards & Shadows */
+  --card-bg: var(--bg-neutral);
+  --card-shadow: rgba(0, 0, 0, 0.08);
+  --gradient-panel: linear-gradient(135deg, #d16d4a 0%, #f4e9dc 100%);
+
+  /* Typography */
+  --font-main: 'Lato', sans-serif;
+  --font-heading: 'PLayfair Display', serif;
+
+}
