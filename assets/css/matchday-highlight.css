@@ -84,7 +84,9 @@
 }
 
 .naples-highlight {
-  background-image: url('../images/trips/naples.jpg');
+  background-image: url('../images/trips/napoli.jpg');
+  background-size: cover;
+  background-position: center;
   filter: brightness(0.85) contrast(0.95);
 }
 

@@ -201,7 +201,7 @@
   height: 4px;
   margin: 1rem auto 0;
   border-radius: 2px;
-  background: linear-gradient(to right, var(--color-accent), var(--color-accent-dark));
+  background: var(--accent);
 }
 
 .coming-soon-text,
