@@ -126,20 +126,36 @@ All images were sourced ethically, copyright free and optimized for grading-safe
 
 
 🧮 Wireframes
+Wireframes were created to guide layout decisions and ensure responsive clarity. Each follows a consistent modular pattern:
+🏠 Home Page Wireframe
+Features: Hero section, featured trips, navigation bar
+Screenshot: [Insert screenshot of homepage wireframe]
+Notes: Establishes visual rhythm and trip hierarchy
 
-Wireframes were created to guide layout decisions and ensure responsive clarity they all follow the same pattern of design:
+📱 Mobile Wireframe
+Features: Optimized layout for small screens, stacked navigation, collapsible sections
+Screenshot: [Insert screenshot of mobile layout]
+Notes: Preserves hierarchy and clarity across breakpoints
 
-Home Page Wireframe – Featured trips, hero section, and navigation
+🌍 Destinations Wireframe
+Features: Grid of featured trips, destination filters
+Screenshot: [Insert screenshot of destinations wireframe]
+Notes: Supports modular expansion and editorial grouping
 
-Mobile Wireframe – Optimized layout for small screens
+ℹ️ Info Page Wireframe
+Features: How it works, What’s included, FAQs, Fan Experience Video, Testimonials
+Screenshot: [Insert screenshot of info page wireframe]
+Notes: Editorial clarity through sectioning and visual anchors
 
-Destinations Wireframe - Featured all trips and Destinations
+📬 Contact Page Wireframe
+Features: Form structure, social icons, footer layout
+Screenshot: [Insert screenshot of contact page wireframe]
+Notes: Balanced layout with clear CTA and accessibility cues
 
-Info Wireframe - How it works, What's included, FAQS, Fan experience Video, Testimonials from Fan
+These wireframes informed the modular structure and helped maintain hierarchy across devices. Each screenshot reflects layout intent and editorial clarity.
 
-Contact Page Wireframe – Form structure, social icons, and footer layout
 
-These wireframes informed the modular structure and helped maintain grading-safe hierarchy across devices.
+
 
 ## 🧱 Project Structure
 

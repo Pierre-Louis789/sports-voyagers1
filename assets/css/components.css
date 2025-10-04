@@ -41,6 +41,7 @@
   flex: 1 1 40%;
   height: 280px;
   width: 100%;
+  background-image: url('../images/dortmund-fan.jpg');
   background-size: cover;
   background-position: center;
   border-radius: 12px;

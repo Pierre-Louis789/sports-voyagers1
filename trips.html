@@ -5,6 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="SportsVoyager curates unforgettable football weekends across Europe’s most iconic destinations." />
   <title>Destinations – SportsVoyager</title>
+  
+  <!-- Preload Key Images -->
+
+  <link rel="preload" as="image" href="assets/images/trips/real-madrid.jpg" fetchpriority="high">
+  <link rel="preload" as="image" href="assets/images/trips/dortmund.jpg" fetchpriority="high">
+  <link rel="preload" as="image" href="assets/images/trips/liverpool.jpg" fetchpriority="high">
+
+
+  <!-- Preload Fonts -->
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap">
+
+
 
   <!-- Modular Stylesheets -->
   <link rel="stylesheet" href="assets/css/variables.css" />
@@ -79,7 +92,7 @@
 
         <!-- Trip Cards -->
         <article class="trip-card">
-          <img src="assets/images/trips/real-madrid.jpg" alt="Madrid El Clásico weekend" />
+          <img src="assets/images/trips/real-madrid.jpg" alt="Madrid El Clásico weekend" fetchpriority="high" />
           <div class="trip-overlay">
             <h3>Madrid El Clásico</h3>
             <p>El Clásico intensity at the Santiago Bernabéu.</p>
@@ -88,7 +101,7 @@
         </article>
 
         <article class="trip-card">
-          <img src="assets/images/trips/dortmund.jpg" alt="Dortmund Bundesliga experience at Signal Iduna Park" />
+          <img src="assets/images/trips/dortmund.jpg" alt="Dortmund Bundesliga experience at Signal Iduna Park" fetchpriority="high"/>
           <div class="trip-overlay">
             <h3>Dortmund Weekend</h3>
             <p>Stand beneath the Yellow Wall, 80,000 voices rise in unison. Signal Iduna Park isn’t just a stadium.</p>
@@ -97,7 +110,7 @@
         </article>
 
         <article class="trip-card">
-          <img src="assets/images/trips/liverpool.jpg" alt="Liverpool legends tour at Anfield" />
+          <img src="assets/images/trips/liverpool.jpg" alt="Liverpool legends tour at Anfield" fetchpriority="high"/>
           <div class="trip-overlay">
             <h3>Liverpool Legends Tour</h3>
             <p>Relive Anfield’s legacy through the Shankly Gates.</p>
@@ -204,7 +217,9 @@
 
     <ul class="coming-soon-list">
       <li>⚽ Milan – San Siro legacy and derby drama</li>
-      <li>⚽ Newcaste – Black-and-white pride and roaring St. James’ Park energy </li>
+      <li>⚽ Porto – Riverside passion and historic vibes</li>
+      <li>⚽ Istanbul – Bosphorus beauty and derby fervor</li>
+      <li>⚽ Newcastle – Black-and-white pride and roaring St. James’ Park energy </li>
       <li>⚽ Seville – Flamenco flair and fierce rivalries</li>
       <li>⚽ Athens – Historic stadiums and fan devotion</li>
       <li>⚽ London – Premier League powerhouses and iconic grounds</li>

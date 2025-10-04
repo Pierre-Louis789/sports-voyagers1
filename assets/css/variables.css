@@ -11,7 +11,7 @@
   /* Core Brand Tones */
   --sandstone-warm: #f4e9dc;
   --stadium-blue: #1e3a5f; /* Primary brand blue */
-  --terracotta-bold: #d16d4a; /* Accent color */
+  --terracotta-bold: #d16d4a; /* Primary brand accent */
   --gray-muted: #a9a9a9;
 
   /* Text & Backgrounds */
@@ -37,4 +37,19 @@
   --font-main: 'Lato', sans-serif;
   --font-heading: 'PLayfair Display', serif;
 
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  src: url('https://fonts.gstatic.com/s/playfairdisplay/...') format('woff2');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: url('https://fonts.gstatic.com/s/lato/...') format('woff2');
+  font-display: swap;
 }

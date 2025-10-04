@@ -6,6 +6,15 @@
   <meta name="description" content="SportsVoyager curates unforgettable football weekends across Europe’s most iconic Destination." />
   <title>Home – SportsVoyager</title>
 
+  <link rel="preload" as="image" href="assets/images/barcelona-1.webp" fetchpriority="high">
+  <link rel="preload" as="image" href="assets/images/barcelona-2.webp" fetchpriority="high">
+  <link rel="preload" as="image" href="assets/images/dortmund-1.jpg" fetchpriority="high">
+  <link rel="preload" as="image" href="assets/images/dortmund-fan.jpg" fetchpriority="high">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" media="print" onload="this.media='all'">
+
+
+
   <!-- Modular Stylesheets -->
   <link rel="stylesheet" href="assets/css/variables.css" />
   <link rel="stylesheet" href="assets/css/base.css" />
@@ -63,6 +72,7 @@
          HERO SECTION
     ================================== -->
     <section class="hero" role="banner" aria-label="Curated Football Weekends across Europe">
+      <img src="assets/images/barcelona-1.webp" alt="Panoramic stadium view during matchday" class="hero-img" fetchpriority="high" />
       <div class="hero-content">
         <h1>Curated Football Weekends</h1>
         <p>From derby days to stadium tours — discover your next matchday escape across Europe.</p>
@@ -86,13 +96,14 @@
          HERO MATCHDAY SECTION
     ================================== -->
     <section class="hero-matchday" role="region" aria-label="Madrid Matchday Highlight">
+      <img src="assets/images/barcelona-2.webp" alt="Fans and players during El Clásico at Camp Nou" class="hero-matchday-img" fetchpriority="high" />
       <div class="hero-overlay">
         <h1>Spotlight: Classico Matchday</h1>
         <p class="hero-subtitle">
           <strong>Real Madrid vs Barcelona</strong><br>
           El Clásico at the Camp Nou — where football becomes a cultural phenomenon.
         </p>
-        <a href="trips/matchday-highlight.html" class="cta-button">Explore Madrid</a>
+        <a href="trips/real-madrid-highlight.html" class="cta-button">Explore Madrid</a>
       </div>
     </section>
   </header>
@@ -114,7 +125,7 @@
     ================================== -->
     <section class="editorial-story" aria-labelledby="dortmund-heading">
       <div class="story-wrapper">
-        <div class="story-image" style="background-image: url('assets/images/dortmund-fan.jpg');" role="img" aria-label="Signal Iduna Park on matchday"></div>
+        <div class="story-image" role="img" aria-label="Signal Iduna Park on matchday"></div>
         <article class="story-content">
            <h2 id="dortmund-heading" class="heading-centered">🟡 Dortmund Matchday Magic</h2>
           <h3>Borussia Dortmund at Signal Iduna Park</h3>
