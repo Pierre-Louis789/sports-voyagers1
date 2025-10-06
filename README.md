@@ -129,32 +129,26 @@ All images were sourced ethically, copyright free and optimized for grading-safe
 Wireframes were created to guide layout decisions and ensure responsive clarity. Each follows a consistent modular pattern:
 🏠 Home Page Wireframe
 Features: Hero section, featured trips, navigation bar
-Screenshot: [Insert screenshot of homepage wireframe]
+Screenshot: 1[Homepage Wireframe](/assets/images/screenshot-index.png)
 Notes: Establishes visual rhythm and trip hierarchy
 
-📱 Mobile Wireframe
-Features: Optimized layout for small screens, stacked navigation, collapsible sections
-Screenshot: [Insert screenshot of mobile layout]
-Notes: Preserves hierarchy and clarity across breakpoints
 
 🌍 Destinations Wireframe
 Features: Grid of featured trips, destination filters
-Screenshot: [Insert screenshot of destinations wireframe]
+Screenshot: ![Destinations wireframe](/assets/images/screenshot-trip-card.png)
 Notes: Supports modular expansion and editorial grouping
 
 ℹ️ Info Page Wireframe
 Features: How it works, What’s included, FAQs, Fan Experience Video, Testimonials
-Screenshot: [Insert screenshot of info page wireframe]
+Screenshot: ![Info page wireframe](/assets/images/screenshot-info.png)
 Notes: Editorial clarity through sectioning and visual anchors
 
 📬 Contact Page Wireframe
 Features: Form structure, social icons, footer layout
-Screenshot: [Insert screenshot of contact page wireframe]
+Screenshot: ![contact page wireframe](/assets/images/screenshot-contact.png)
 Notes: Balanced layout with clear CTA and accessibility cues
 
 These wireframes informed the modular structure and helped maintain hierarchy across devices. Each screenshot reflects layout intent and editorial clarity.
-
-
 
 
 ## 🧱 Project Structure
@@ -206,8 +200,6 @@ Each HTML file uses semantic tags (`<header>`, `<main>`, `<section>`, `<article>
 - ✅ Semantic HTML5 for accessibility and SEO
 - ✅ Modular CSS with responsive layout
 - ✅ Editorial hero section and trip cards
-- ✅ Unified navigation bar across all pages
-- ✅ Real-person testimonials with emotional tone
 - ✅ Social media icons with hover transitions
 
 ---
@@ -234,10 +226,12 @@ Each HTML file uses semantic tags (`<header>`, `<main>`, `<section>`, `<article>
 | Android Phone | ✅     | N/A    | ✅      | ✅   |
 | iPad          | ✅     | ✅     | ✅      | ✅   |
 
+> Note: Safari is not available on Android devices.
+
 ### ✅ Audit Scores (Chrome DevTools)
-- Performance:   
-- Accessibility:  
-- Best Practices: 
+- Performance: 88
+- Accessibility: 91
+- Best Practices: 94
 
 ---
 
@@ -245,7 +239,6 @@ Each HTML file uses semantic tags (`<header>`, `<main>`, `<section>`, `<article>
 
 - Hero image may overflow on some mobile screens  
 - Footer text alignment varies across devices
-- Buttons for trips might not have accesibility
 
 ---
 
@@ -253,14 +246,30 @@ Each HTML file uses semantic tags (`<header>`, `<main>`, `<section>`, `<article>
 
 This site is designed to be deployed as a static project using GitHub Pages.
 
-### To deploy:
-1. Push the repository to GitHub  
-2. Navigate to **Settings** → **Pages**  
-3. Under **Source**, select `main` branch and `/root`  
-4. Save and wait for the site to publish  
 
-Your site will be live at:  
-`https://Pierre-Louis789.github.io/sports-voyager/`
+
+## 🌍 How to View the Website (for visitors)
+👉 [Live Site](https://Pierre-Louis789.github.io/sports-voyager1/)
+
+ - Visit the Website
+👉 👉 [https://Pierre-Louis789.github.io/sports-voyager1/](https://Pierre-Louis789.github.io/sports-voyager1/)`
+- Browse the Pages
+- 🏠 Home: Overview of featured football weekends
+- 🧳 Destinations: Explore matchday trips across Europe
+- 📍 Info: Learn how SportsVoyager works
+- ✉️ Contact: Get in touch or ask questions
+- Use Desktop or Mobile
+
+
+The site is fully responsive—optimized for both desktop and mobile viewing.
+
+🧠 Notes for First-Time Visitors
+
+- No installation needed—just open the link in your browser.
+- Best viewed in Chrome, Firefox, or Safari.
+- All images and styles are ethically sourced and performance-optimized.
+
+
 
 ---
 
@@ -278,22 +287,16 @@ Planned future enhancements include:
 
 ## 📜 Credits
 
-### Code
-
-- Bootstrap Grid System  
-- StackOverflow (hero image logic)  
-- MDN Web Docs (form validation patterns)
-
 ### Content
 
 - All written by developer  
-- Color psychology reference: [source](#)
 
 ## 💬 Testimonials
 
 Fictional quotes were crafted to evoke real fan voices and emotional resonance. These are editorial placeholders used to demonstrate layout rhythm and storytelling tone. No real individuals are represented.
 
 ### Acknowledgements
+
 - Thanks to Code Institute and Level 5 Web Application Development cohort
 
 ---
@@ -301,8 +304,10 @@ Fictional quotes were crafted to evoke real fan voices and emotional resonance. 
 ## 📬 Contact
 
 For collaboration, feedback, or commercial inquiries:  
+
 📧 sicot.pierrelouis@gmail.com  
-Or open an issue via [GitHub](https://github.com/Pierre-Louis789/sports-voyager)
+
+Or open an issue via [GitHub]👉 [https://Pierre-Louis789.github.io/sports-voyager1/](https://Pierre-Louis789.github.io/sports-voyager1/)
 
 ---
 
