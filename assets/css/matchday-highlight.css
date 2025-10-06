@@ -39,64 +39,64 @@
 }
 
 .real-madrid-highlight {
-  background-image: url('../images/trips/real-madrid.jpg');
+  background-image: url('../images/trips/real-madrid.webp');
   filter: brightness(0.85) contrast(0.95);
 }
 
 .ajax-highlight {
-  background-image: url('../images/trips/ajax.jpg');
+  background-image: url('../images/trips/ajax.webp');
   filter: brightness(0.85) contrast(0.95);
 }
 
 .barcelona-highlight {
-  background-image: url('../images/trips/barcelona.jpg');
+  background-image: url('../images/trips/barcelona.webp');
   filter: brightness(0.85) contrast(0.95);
 }
 
 .bayern-munich-highlight {
-  background-image: url('../images/trips/bayern-munich.jpg');
+  background-image: url('../images/trips/bayern-munich.webp');
   filter: brightness(0.85) contrast(0.95);
 }
 
 .dortmund-highlight {
-  background-image: url('../images/trips/dortmund.jpg');
+  background-image: url('../images/trips/dortmund.webp');
   filter: brightness(0.85) contrast(0.95);
 }
 
 .glasgow-highlight {
-  background-image: url('../images/trips/glasgow.jpg');
+  background-image: url('../images/trips/glasgow.webp');
   filter: brightness(0.85) contrast(0.95);
 }
 
 .lisbon-highlight {
-  background-image: url('../images/trips/lisbon.jpg');
+  background-image: url('../images/trips/lisbon.webp');
   filter: brightness(0.85) contrast(0.95);
 }
 
 .liverpool-highlight {
-  background-image: url('../images/trips/liverpool.jpg');
+  background-image: url('../images/trips/liverpool.webp');
   filter: brightness(0.85) contrast(0.95);
 }
 
 .manchester-city-highlight {
-  background-image: url('../images/trips/manchester-city.jpg');
+  background-image: url('../images/trips/manchester-city.webp');
   filter: brightness(0.85) contrast(0.95);
 }
 
 .naples-highlight {
-  background-image: url('../images/trips/napoli.jpg');
+  background-image: url('../images/trips/napoli.webp');
   background-size: cover;
   background-position: center;
   filter: brightness(0.85) contrast(0.95);
 }
 
 .paris-highlight {
-  background-image: url('../images/trips/paris.jpg');
+  background-image: url('../images/trips/paris.webp');
   filter: brightness(0.85) contrast(0.95);
 }
 
 .rome-highlight {
-  background-image: url('../images/trips/rome.jpg');
+  background-image: url('../images/trips/rome.webp');
   filter: brightness(0.85) contrast(0.95);
 }
 
