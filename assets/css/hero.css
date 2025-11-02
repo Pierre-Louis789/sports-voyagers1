@@ -206,15 +206,21 @@ body.loaded .hero {
 ================================ */
 
 .editorial-break {
-  margin: 4rem 0;
+ 
   text-align: center;
-  font-family: 'Georgia', serif;
-  color: #2c2c2c;
-  background-color: #1a1858; 
+  font-family: 'Playfair Display', serif;
+  color: var(--accent); /* gold text */
+  background: linear-gradient(
+    to bottom,
+    var(--accent) 0%,        /* gold at very top */
+    #121212 20%,             /* fade into black */
+    #121212 80%,             /* hold black through center */
+    var(--accent) 100%       /* gold at very bottom */
+  );
   padding: 3rem 2rem;
-  border-top: 1px solid rgba(0, 0, 0, 0.05);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.03);
-  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.03); /* subtle depth */
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
 }
 
 .editorial-line {
@@ -224,4 +230,5 @@ body.loaded .hero {
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
+  text-shadow: 0 0 8px rgba(255, 204, 51, 0.6); /* subtle glow */
 }

@@ -9,34 +9,34 @@
 
 :root {
   /* Core Brand Tones */
-  --sandstone-warm: #f4e9dc;
-  --stadium-blue: #1e3a5f; /* Primary brand blue */
-  --terracotta-bold: #d16d4a; /* Primary brand accent */
-  --gray-muted: #a9a9a9;
+  --gold-highlight: #ffcc33;   /* Primary gold accent */
+  --gold-deep: #e6b800;        /* Hover / darker gold */
+  --charcoal-dark: #121212;    /* Primary background */
+  --charcoal-panel: #1a1a1a;   /* Panels / cards */
+  --gray-muted: #888888;       /* Muted text */
 
   /* Text & Backgrounds */
-  --text-main: #faedd4;
+  --text-main: #ffcc33;        /* Gold on dark */
   --text-muted: var(--gray-muted);
   --text-light: #ffffff;
-  --text-dark: #1a1a1a;
-  --bg-light: #fffdf9;
-  --bg-neutral: var(--sandstone-warm);
-  --bg-panel: var(--stadium-blue);
-  --bg-dark: #1e3a5f;
+  --text-dark: #000000;
+  --bg-light: #fefefe;
+  --bg-neutral: var(--charcoal-panel);
+  --bg-panel: var(--charcoal-dark);
+  --bg-dark: var(--charcoal-dark);
 
   /* Accent & CTA */
-  --accent: var(--terracotta-bold);
-  --accent-hover: #c85c3a;
+  --accent: var(--gold-highlight);
+  --accent-hover: var(--gold-deep);
 
   /* Cards & Shadows */
-  --card-bg: var(--bg-neutral);
-  --card-shadow: rgba(0, 0, 0, 0.08);
-  --gradient-panel: linear-gradient(135deg, #d16d4a 0%, #f4e9dc 100%);
+  --card-bg: var(--charcoal-panel);
+  --card-shadow: rgba(0, 0, 0, 0.4);
+  --gradient-panel: linear-gradient(135deg, #ffcc33 0%, #1a1a1a 100%);
 
   /* Typography */
   --font-main: 'Lato', sans-serif;
-  --font-heading: 'PLayfair Display', serif;
-
+  --font-heading: 'Playfair Display', serif;
 }
 
 @font-face {
