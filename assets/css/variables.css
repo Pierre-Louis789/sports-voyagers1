@@ -39,6 +39,10 @@
   --font-heading: 'Playfair Display', serif;
 }
 
+.fa-rotate-by {
+  transform: rotate(var(--fa-rotate-angle, 0deg));
+}
+
 @font-face {
   font-family: 'Playfair Display';
   font-style: normal;
