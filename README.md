@@ -159,7 +159,7 @@ sports-voyager/
 ├── info.html                # All info and Q&A |
 ├── contact.html             # Dedicated contact form page|
 ├── README.md                # Project documentation|
-
+** Html made for each trips and destinations not listed.
 ├── assets/
 │   ├── css/
 │   │   ├── base.css         # Base and global styles
@@ -182,9 +182,9 @@ sports-voyager/
 │       ├── Barcelona-1.jpg  # Destination imagery
 │       ├── barcelona-2.jpg  # Destination imagery
 │       ├── dortmund-1.jpg   # Destination imagery
-│       ├── dortmund-fan.jpg # Editorial testimonial image
-│       ├── hero-bg.jpg      # Homepage hero background
-│       └── logo-card.jpg    # Branding asset
+│       ├── dortmund-fan.jpg # Editorial background
+│       └── ...
+
 
 
 

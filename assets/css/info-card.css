@@ -110,9 +110,7 @@ body.loaded .info-card {
   right: -20px;
   width: 120px;
   height: 120px;
-  background: url('../img/icon-info.svg') no-repeat center;
   background-color: var(--accent);
-  mask: url('../img/icon-info.svg') no-repeat center;
   mask-size: contain;
   background-size: contain;
   opacity: 0.05;
