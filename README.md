@@ -272,21 +272,27 @@ Each HTML file uses semantic tags (`<header>`, `<main>`, `<section>`, `<article>
 The following section demonstrates how the website meets the expectations outlined in the original user stories. Each story is followed by a brief explanation and a supporting screenshot.
 
 👤 As a first-time visitor, I want to understand what the site offers quickly.
+
 ✅ Solution: The homepage features a bold hero banner with a clear tagline and CTA button, supported by a short intro paragraph and visual cues.
+
 📸 Screenshot: Homepage hero section with tagline and CTA
 ![Homepage Hero](assets/images/screenshots/homepage-hero.png)
 
 
 
 🧭 As a sports and travel enthusiast, I want to browse destinations.
+
 ✅ Solution: The “Destinations” section uses interactive cards with images, a descriptions and hover effects for clicking a destinations accordingly.
+
 📸 Screenshot: Destination card section
 ![Sport Filter Cards](assets/images/screenshots/destinations.png)
 
 
 
 📱 As a mobile user, I want the site to be easy to use on my phone or my tablet.
+
 ✅ Solution: The layout is fully responsive, navigation, stacked content, and touch-friendly buttons.
+
 📸 Screenshot: Mobile layout home page
 ![Mobile Layout](assets/images/screenshots/mobile-layout.png)
 
@@ -294,13 +300,18 @@ The following section demonstrates how the website meets the expectations outlin
 
 
 🧠 As a visually impaired user, I want good contrast and keyboard accessibility.
+
 ✅ Solution: The site uses high-contrast gold-on-charcoal tones, visible focus states, and semantic HTML. Tested with WAVE accessibility tool.
+
 📸 Screenshot: WAVE results showing 0 errors
 ![Wave validation Screenshot](assets/images/screenshots/wave-result.png)
 
 
 🎯 As a site visitor, I want clear navigation and CTAs, so I can move through the site without confusion.  
-✅ Solution: The navigation bar is consistent across all pages, with clear links to Home, Destinations, Info, and Contact. CTA buttons are styled in gold for visibility.  
+
+✅ Solution: The navigation bar is consistent across all pages, with clear links to Home, Destinations, Info, and Contact. CTA buttons are styled in gold for 
+visibility.  
+
 📸 Screenshot: Navigation bar with highlighted CTA  
 ![Navigation Screenshot](assets/images/screenshots/navigation.png)
 
