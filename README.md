@@ -167,7 +167,7 @@ Wireframes were created to guide layout decisions and ensure responsive clarity.
 
 🏠 Home Page Wireframe
 Features: Hero section, featured trips, navigation bar
-Screenshot: 1[Homepage Wireframe](/assets/images/screenshots/screenshot-index.png)
+Screenshot: ![Homepage Wireframe](/assets/images/screenshots/screenshot-index.png)
 Notes: Establishes visual rhythm and trip hierarchy
 
 
