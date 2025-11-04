@@ -103,6 +103,7 @@ You can find a screenshot showing the layout across devices in the `/assets/scre
 
 ![Responsive layout](assets/images/screenshots/responsive-layout.png)
 
+---
 
 ## 🖼️ Imagery
 
@@ -140,6 +141,7 @@ All images were curated to support editorial storytelling and visual rhythm. Eac
 
 All images were sourced ethically, copyright free and optimized for grading-safe and commercial deployment. Attribution details are listed where required.
 
+---
 
 ## 🧮 Wireframes
 
@@ -169,6 +171,7 @@ Notes: Balanced layout with clear CTA and accessibility cues
 
 These wireframes informed the modular structure and helped maintain hierarchy across devices. Each screenshot reflects layout intent and editorial clarity.
 
+---
 
 ## 🧱  Project Structure
 
@@ -226,13 +229,13 @@ Each HTML file uses semantic tags (`<header>`, `<main>`, `<section>`, `<article>
 
 ---
 
-## 🧪 Testing
 
 
-
-### ✅ Validation
+## ✅ Testing and Validation
 
   ✅ The site was tested with the WAVE WebAIM Accessibility Evaluation Tool, which reported 0 errors and 0 contrast errors, confirming that the design meets accessibility standards (with only minor alerts for redundant alt text).
+  ![Wave validation Screenshot](assets/images/screenshots/wave-result.png)
+  
   All pages passed W3C HTML and CSS validation
 
   ✅ The site’s CSS was tested using the W3C Jigsaw CSS Validator.
