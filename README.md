@@ -249,9 +249,9 @@ sports-voyager/
 
 │       ├── dortmund-fan.jpg # Editorial testimonial image
 
-│       ├── hero-bg.jpg      # Homepage hero background
+│       └──  hero-bg.jpg      # Homepage hero background
 
-│       └── logo-card.jpg    # Branding asset
+       
 
 │   ├── Screenshots 
 
@@ -275,6 +275,8 @@ sports-voyager/
 │       ├──...
 
 
+
+--
 
 Each HTML file uses semantic tags (`<header>`, `<main>`, `<section>`, `<article>`, `<nav>`, `<footer>`) to ensure accessibility, SEO optimization, and clean content hierarchy.
 
