@@ -18,9 +18,11 @@ SportsVoyager blends clean structure, bold design, and practical scalability to 
 
 SportsVoyager was designed to deliver an emotionally engaging and intuitive experience for football fans planning match weekend escapes. The layout, content, and navigation were shaped for user goals, ensuring the site feels both editorial and practical for the UX to be as easy as possible to navigate.
 
+
+
 🔍 User Stories
 
-🧭 First-Time Visitor Goals
+### 🧭 First-Time Visitor Goals
 
 a. As a first-time visitor, I want to instantly understand the purpose of the site so I can decide whether to explore further.
 
@@ -28,7 +30,7 @@ b. As a first-time visitor, I want to easily navigate the homepage and trip list
 
 c. As a first-time visitor, I want to read testimonials and check social media links to gauge trust and community presence.
 
-🔁 Returning Visitor Goals
+### 🔁 Returning Visitor Goals
 
 a. As a returning visitor, I want to quickly find new destinations or updated match preview.
 
@@ -36,7 +38,7 @@ b. As a returning visitor, I want to locate the contact form to ask questions or
 
 c. As a returning visitor, I want to explore community features like fan reviews or curated travel tips.
 
-🔄 Frequent User Goals
+### 🔄 Frequent User Goals
 
 a. As a frequent user, I want to check for newly added cities or matchday packages.
 
@@ -51,30 +53,80 @@ c. As a frequent user, I want to use the site as a planning tool for future trip
 
 The design of SportsVoyager was crafted to evoke editorial warmth, trust, and fan-first energy. Every visual choice—from typography to imagery—was made to support clarity, emotional impact, and responsive usability.
 
-🎨 Colour Scheme
-This site uses a warm, editorial palette designed to balance energy, trust, and readability:
+### 🎨 Colors Variables
+This file (variables.css) defines the global design tokens for the SportsVoyagers website. It keeps colors, typography, and component styles consistent across all pages.
 
-- Primary Brand Tones
---stadium-blue (#1e3a5f) and --terracotta-bold (#d16d4a) deliver contrast, emotional warmth, and matchday energy.
+✨ What’s Inside
+Brand Colors:
+--gold-highlight, --gold-deep, --charcoal-dark, --charcoal-panel, --gray-muted
 
-- Accent & Support
---sandstone-warm (#f4e9dc) and --gray-muted (#a9a9a9) provide soft neutrals for content hierarchy and visual rhythm.
+Text & Backgrounds:
+--text-main, --text-light, --bg-panel, --bg-dark
 
-- Call-to-Action Highlights
---accent and --accent-hover guide user interaction with bold reds and vibrant warmth.
+Accents & CTAs: 
+--accent, --accent-hover
 
-- Background Layers
---bg-light, --bg-neutral, and --bg-panel create editorial depth across sections.
+Cards & Shadows:
+--card-bg, --card-shadow, --gradient-panel
 
-- Typography
---font-heading: 'Playfair Display', serif
---font-main: 'Lato', sans-serif
+Typography:
+--font-main: 'Lato', --font-heading: 'Playfair Display'
 
-These colors were chosen to reflect the excitement of matchday travel while maintaining professional polish and accessibility. The palette evokes warmth, clarity, and editorial depth—perfect for fan-first storytelling.
+### 🔠 Typography
+
+Headings: Playfair Display (serif, editorial)
+
+Body: Lato (sans‑serif, clean and legible)
+
+Fonts are loaded with @font-face and font-display: swap for performance.
 
 
+### ✅ Validation
 
-✍️ Typography
+Tested with the W3C CSS Validator.
+
+Warnings appear only for CSS variables (not statically checkable).
+
+No critical errors in custom project CSS.
+
+These colors were chosen to reflect the excitement of matchday travel while maintaining accessibility. The palette evokes warmth, clarity, and editorial depth—perfect for fan-first storytelling.
+
+
+### 📱 Responsive layout
+
+This website is designed to work well on all screen sizes — from mobile phones to tablets and desktops. I used a mobile-first approach, which means the layout starts simple for small screens and then adds more structure for larger screens.
+
+### How it works
+
+I created a separate CSS file called `responsive.css` that includes media queries to adjust the layout depending on the screen width.
+
+- **Mobile (up to 768px)**  
+  - The hero section is centered and resized for readability.  
+  - Grid sections stack into a single column for easier scrolling.  
+  - Font sizes and padding are adjusted to fit smaller screens.
+
+- **Tablet (up to 1024px)**  
+  - Grid sections show two columns instead of one.  
+  - Layout spacing is slightly increased for better readability.
+
+- **Desktop (above 1024px)**  
+  - Navigation is shown fully across the top with horizontal links.  
+  - Grid sections show three or four columns depending on the layout.  
+  - The site is centered with a maximum width for better visual balance.
+
+### File used
+
+The responsive layout is handled in `assets/css/responsive.css`.  
+All styles are commented to explain what each section does and which screen size it targets.
+
+#### Screenshot
+
+You can find a screenshot showing the layout across devices in the `/assets/screenshots/responsive-layout/` folder.
+
+![Responsive layout](/assets/screenshots/responsive-layout.png)
+
+
+## ✍️ Typography
 
 - Primary Font: Lato — a clean, modern sans-serif used for body text and UI clarity
 
@@ -85,7 +137,7 @@ These colors were chosen to reflect the excitement of matchday travel while main
 These fonts were selected to balance structure with emotional tone—supporting both readability and the fan-first editorial voice of the site.
 
 
-🖼️ Imagery
+## 🖼️ Imagery
 
 Imagery plays a central role in creating an immersive, fan-first experience:
 
@@ -98,7 +150,7 @@ Destination-specific images highlight iconic stadiums, fan culture, and local at
 
 All images were curated to support editorial storytelling and visual rhythm. Each asset was selected for its emotional clarity, cultural relevance, and commercial safety with b.
 
-📦 Image Sources & Attribution
+## 📦 Image Sources & Attribution
 
 | Use Case     | Description / Title                                | Photographer         | Source        |
 |--------------|----------------------------------------------------|----------------------|---------------|
@@ -125,8 +177,11 @@ All images were sourced ethically, copyright free and optimized for grading-safe
 
 
 
-🧮 Wireframes
+## 🧮 Wireframes
+
+
 Wireframes were created to guide layout decisions and ensure responsive clarity. Each follows a consistent modular pattern:
+
 🏠 Home Page Wireframe
 Features: Hero section, featured trips, navigation bar
 Screenshot: 1[Homepage Wireframe](/assets/images/screenshot-index.png)
@@ -151,7 +206,7 @@ Notes: Balanced layout with clear CTA and accessibility cues
 These wireframes informed the modular structure and helped maintain hierarchy across devices. Each screenshot reflects layout intent and editorial clarity.
 
 
-## 🧱 Project Structure
+## 🧱  Project Structure
 
 sports-voyager/
 ├── index.html               # Homepage with hero section and highlight featured trips|
@@ -195,7 +250,7 @@ Each HTML file uses semantic tags (`<header>`, `<main>`, `<section>`, `<article>
 
 ---
 
-## ✨ Features
+## ✨  Features
 
 - ✅ Semantic HTML5 for accessibility and SEO
 - ✅ Modular CSS with responsive layout
@@ -266,7 +321,7 @@ The site is fully responsive—optimized for both desktop and mobile viewing.
 🧠 Notes for First-Time Visitors
 
 - No installation needed—just open the link in your browser.
-- Best viewed in Chrome, Firefox, or Safari.
+- Best viewed in Edge, Chrome, Firefox, or Safari.
 - All images and styles are ethically sourced and performance-optimized.
 
 
