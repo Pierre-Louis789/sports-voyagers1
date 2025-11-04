@@ -65,10 +65,10 @@ Body: Lato (sans‑serif, clean and legible)
 
 Fonts are loaded with @font-face and font-display: swap for performance.
 
----
 
 These colors were chosen to reflect the excitement of matchday travel while maintaining accessibility. The palette evokes clarity, and editorial depth—perfect for fan-first travel story.
 
+---
 
 ### 📱 Responsive layout
 
@@ -101,7 +101,7 @@ All styles are commented to explain what each section does and which screen size
 
 You can find a screenshot showing the layout across devices in the `/assets/screenshots/responsive-layout/` folder.
 
-![Responsive layout](/assets/screenshots/responsive-layout.png)
+![Responsive layout](assets/images/screenshots/responsive-layout.png)
 
 
 ## 🖼️ Imagery
