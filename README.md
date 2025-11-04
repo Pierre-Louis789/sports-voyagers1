@@ -193,36 +193,64 @@ These wireframes informed the modular structure and helped maintain hierarchy ac
 ## 🧱  Project Structure
 
 sports-voyager/
+
+
 ├── index.html               # Homepage with hero section and highlight featured trips|
+
 ├── trips.html               # Modular layout for destination listings|
+
 ├── info.html                # All info and Q&A |
+
 ├── contact.html             # Dedicated contact form page|
+
 ├── README.md                # Project documentation|
 
+
 ├── assets/
+
 │   ├── css/
+
 │   │   ├── base.css         # Base and global styles
+
 │   │   ├── buttons.css      # CTA and link button styling
+
 │   │   ├── components.css   # Modular blocks and reusable UI elements
+
 │   │   ├── featured.css     # Styling for featured trip cards
+
 │   │   ├── info-card.css    # Layout for About/Contact info blocks
+
 │   │   ├── layout.css       # Grid and responsive structure
+
 │   │   ├── navigation.css   # Header and nav bar styling
+
 │   │   ├── responsive.css   # Responsive layout tuning for mobile and desktop
+
 │   │   ├── typography.css   # Font styles and text hierarchy
+
 │   │   └── variables.css    # CSS custom properties for color and spacing
 
 │   ├── icons/
+
 │   │   ├── facebook.svg     # Footer social icon
+
 │   │   ├── instagram.svg    # Footer social icon
+
 │   │   └── twitter.svg      # Footer social icon
 
+
 │   └── images/
+
 │       ├── Barcelona-1.jpg  # Destination imagery
+
 │       ├── barcelona-2.jpg  # Destination imagery
+
 │       ├── dortmund-1.jpg   # Destination imagery
+
 │       ├── dortmund-fan.jpg # Editorial testimonial image
+
 │       ├── hero-bg.jpg      # Homepage hero background
+
 │       └── logo-card.jpg    # Branding asset
 
 
@@ -344,7 +372,7 @@ On ultra‑narrow devices, the hero background can extend slightly beyond the vi
 Depending on the browser, footer text may shift position. This is a minor presentation issue and does not interfere with links or navigation.
 
 - Default form validation styling.
-Browser‑generated validation messages (e.g. for required fields) appear with default styles rather than the site’s custom design. The validation works correctly, but the look could be refined.
+Browser‑generated validation messages (e.g. for required fields) appear with default styles rather than the site’s custom design. The validation works correctly.
 
 - Validator warnings from external libraries.
 HTML and CSS validators raise expected warnings related to third‑party code (such as Font Awesome) and the use of CSS variables. These are non‑critical and do not impact accessibility or performance.
