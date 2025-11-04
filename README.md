@@ -265,6 +265,7 @@ Each HTML file uses semantic tags (`<header>`, `<main>`, `<section>`, `<article>
 - Accessibility: 91
 - Best Practices: 94
 
+-- 
 
 ### ✅ Testing – User Stories
 
@@ -295,7 +296,7 @@ The following section demonstrates how the website meets the expectations outlin
 🧠 As a visually impaired user, I want good contrast and keyboard accessibility.
 ✅ Solution: The site uses high-contrast gold-on-charcoal tones, visible focus states, and semantic HTML. Tested with WAVE accessibility tool.
 📸 Screenshot: WAVE results showing 0 errors
-![WAVE Accessibility](assets/images/screenshots/wave-results.png)
+![Wave validation Screenshot](assets/images/screenshots/wave-result.png)
 
 
 🎯 As a site visitor, I want clear navigation and CTAs, so I can move through the site without confusion.  
