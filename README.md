@@ -253,8 +253,26 @@ sports-voyager/
 
 │       └── logo-card.jpg    # Branding asset
 
+│   ├── Screenshots 
+
+│       ├── css-validation.png   # CSS Validator screeshots
+
+│       ├── destinations.png   # Destinations Screenshots 
+
+│       ├── ...
+
+│       ├── ...
 
 
+│   ├── Trips 
+
+│       ├──ajax.webp
+
+│       ├──barcelona.webp
+
+│       ├── ...
+
+│       ├──...
 
 
 
