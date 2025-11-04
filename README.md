@@ -41,20 +41,37 @@ The design of SportsVoyager was crafted to evoke editorial warmth, trust, and fa
 This file (variables.css) defines the global design tokens for the SportsVoyagers website. It keeps colors, typography, and component styles consistent across all pages.
 
 ✨ What’s Inside
+
 Brand Colors:
---gold-highlight, --gold-deep, --charcoal-dark, --charcoal-panel, --gray-muted
+
+--gold-highlight,
+--gold-deep,
+--charcoal-dark,
+--charcoal-panel, 
+--gray-muted
 
 Text & Backgrounds:
---text-main, --text-light, --bg-panel, --bg-dark
+
+--text-main,
+--text-light,
+--bg-panel,
+--bg-dark
 
 Accents & CTAs: 
---accent, --accent-hover
+
+--accent,
+--accent-hover
 
 Cards & Shadows:
---card-bg, --card-shadow, --gradient-panel
+
+--card-bg,
+--card-shadow,
+--gradient-panel
 
 Typography:
---font-main: 'Lato', --font-heading: 'Playfair Display'
+
+--font-main: 'Lato', 
+--font-heading: 'Playfair Display'
 
 
 ### 🔠 Typography
@@ -319,8 +336,18 @@ visibility.
 
 ## 🐞 Known Bugs
 
-- Hero image may overflow on some mobile screens  
-- Footer text alignment varies across devices
+
+- Hero image scaling on very small screens.
+On ultra‑narrow devices, the hero background can extend slightly beyond the viewport, which may introduce horizontal scrolling. This is a visual quirk only and does not affect site functionality.
+
+- Footer alignment inconsistencies.
+Depending on the browser, footer text may shift position. This is a minor presentation issue and does not interfere with links or navigation.
+
+- Default form validation styling.
+Browser‑generated validation messages (e.g. for required fields) appear with default styles rather than the site’s custom design. The validation works correctly, but the look could be refined.
+
+- Validator warnings from external libraries.
+HTML and CSS validators raise expected warnings related to third‑party code (such as Font Awesome) and the use of CSS variables. These are non‑critical and do not impact accessibility or performance.
 
 ---
 
