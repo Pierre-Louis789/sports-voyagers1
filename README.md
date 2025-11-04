@@ -265,7 +265,7 @@ Each HTML file uses semantic tags (`<header>`, `<main>`, `<section>`, `<article>
 - Accessibility: 91
 - Best Practices: 94
 
--- 
+---
 
 ### ✅ Testing – User Stories
 
@@ -278,7 +278,7 @@ The following section demonstrates how the website meets the expectations outlin
 📸 Screenshot: Homepage hero section with tagline and CTA
 ![Homepage Hero](assets/images/screenshots/homepage-hero.png)
 
-
+---
 
 🧭 As a sports and travel enthusiast, I want to browse destinations.
 
@@ -287,7 +287,7 @@ The following section demonstrates how the website meets the expectations outlin
 📸 Screenshot: Destination card section
 ![Sport Filter Cards](assets/images/screenshots/destinations.png)
 
-
+---
 
 📱 As a mobile user, I want the site to be easy to use on my phone or my tablet.
 
@@ -296,8 +296,7 @@ The following section demonstrates how the website meets the expectations outlin
 📸 Screenshot: Mobile layout home page
 ![Mobile Layout](assets/images/screenshots/mobile-layout.png)
 
-
-
+---
 
 🧠 As a visually impaired user, I want good contrast and keyboard accessibility.
 
@@ -306,6 +305,7 @@ The following section demonstrates how the website meets the expectations outlin
 📸 Screenshot: WAVE results showing 0 errors
 ![Wave validation Screenshot](assets/images/screenshots/wave-result.png)
 
+---
 
 🎯 As a site visitor, I want clear navigation and CTAs, so I can move through the site without confusion.  
 
