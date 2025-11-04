@@ -3,7 +3,8 @@
 **SportsVoyager** is a modular, editorial-style travel guide tailored for sports enthusiasts seeking immersive match weekend experiences.
 Built with semantic HTML5 and scalable CSS3, the site delivers a visually striking and responsive user experience.
 
-This project was developed as part of **Project Milestone 1 for Code Institute’s Full Stack Software Development Diploma**. It demonstrates core front-end development skills while laying the foundation for a possible commercially viable product. The codebase is structured to meet professional standards and is open to future expansion.
+This project was developed as part of **Project Milestone 1 for Code Institute’s Full Stack Software Development Diploma**. 
+It demonstrates core front-end development skills while laying the foundation for a possible commercially viable product. The codebase is structured to meet professional standards and is open to future expansion.
 
 ---
 
@@ -16,35 +17,18 @@ SportsVoyager blends clean structure, bold design, and practical scalability to 
 ## 🧠 User experience (UX)
 
 
-SportsVoyager was designed to deliver an emotionally engaging and intuitive experience for football fans planning match weekend escapes. The layout, content, and navigation were shaped for user goals, ensuring the site feels both editorial and practical for the UX to be as easy as possible to navigate.
+SportsVoyager was designed to deliver an emotionally engaging and intuitive experience for football fans planning match weekend escapes. The layout, content, and navigation were shaped for user goals, ensuring the site feels both editorial and practical for the UX and to be as easy as possible to navigate.
 
+👥 User Stories
 
+As a site visitor, I want to:
 
-🔍 User Stories
+- 🧭 Understand what the site offers quickly, so I can decide if it’s relevant to me.
+- 🏄‍♂️ Explore destinations, so I can find places that match my interests.
+- 📱 Use the site easily on mobile, so I can browse on the go.
+- 🎯 Access clear navigation and CTAs, so I can move through the site without confusion.
+- 🧠 Experience good contrast and keyboard accessibility, so I can use the site regardless of ability.
 
-### 🧭 First-Time Visitor Goals
-
-a. As a first-time visitor, I want to instantly understand the purpose of the site so I can decide whether to explore further.
-
-b. As a first-time visitor, I want to easily navigate the homepage and trip listings to find destinations that interest me.
-
-c. As a first-time visitor, I want to read testimonials and check social media links to gauge trust and community presence.
-
-### 🔁 Returning Visitor Goals
-
-a. As a returning visitor, I want to quickly find new destinations or updated match preview.
-
-b. As a returning visitor, I want to locate the contact form to ask questions or suggest destinations.
-
-c. As a returning visitor, I want to explore community features like fan reviews or curated travel tips.
-
-### 🔄 Frequent User Goals
-
-a. As a frequent user, I want to check for newly added cities or matchday packages.
-
-b. As a frequent user, I want to explore deeper editorial content like fan testimonials and travel tips to enrich my experience.
-
-c. As a frequent user, I want to use the site as a planning tool for future trips, comparing cities and match schedules.
 
 ---
 
@@ -72,6 +56,7 @@ Cards & Shadows:
 Typography:
 --font-main: 'Lato', --font-heading: 'Playfair Display'
 
+
 ### 🔠 Typography
 
 Headings: Playfair Display (serif, editorial)
@@ -80,16 +65,9 @@ Body: Lato (sans‑serif, clean and legible)
 
 Fonts are loaded with @font-face and font-display: swap for performance.
 
+---
 
-### ✅ Validation
-
-Tested with the W3C CSS Validator.
-
-Warnings appear only for CSS variables (not statically checkable).
-
-No critical errors in custom project CSS.
-
-These colors were chosen to reflect the excitement of matchday travel while maintaining accessibility. The palette evokes warmth, clarity, and editorial depth—perfect for fan-first storytelling.
+These colors were chosen to reflect the excitement of matchday travel while maintaining accessibility. The palette evokes clarity, and editorial depth—perfect for fan-first travel story.
 
 
 ### 📱 Responsive layout
@@ -126,17 +104,6 @@ You can find a screenshot showing the layout across devices in the `/assets/scre
 ![Responsive layout](/assets/screenshots/responsive-layout.png)
 
 
-## ✍️ Typography
-
-- Primary Font: Lato — a clean, modern sans-serif used for body text and UI clarity
-
-- Heading Font: Playfair Display — a serif typeface chosen for editorial warmth and storytelling impact
-
-- Fallbacks: sans-serif and serif ensure consistency across browsers
-
-These fonts were selected to balance structure with emotional tone—supporting both readability and the fan-first editorial voice of the site.
-
-
 ## 🖼️ Imagery
 
 Imagery plays a central role in creating an immersive, fan-first experience:
@@ -154,7 +121,7 @@ All images were curated to support editorial storytelling and visual rhythm. Eac
 
 | Use Case     | Description / Title                                | Photographer         | Source        |
 |--------------|----------------------------------------------------|----------------------|---------------|
-| Hero Image   | “A stadium full of people watching a football game”   | Alessio Patron       | [Unsplash](https://unslpash.com) |
+| Hero Image   | “A stadium full of people watching a football game”   | Alessio Patron       | [Unsplash](https://unsplash.com) |
 | Trip Card    | “Soccer field at Camp Nou, Barcelona”     | Michael Lee    | [Unsplash](https://unsplash.com/@guoshiwushuang) |
 | Trip Card    | “Street scene in Dortmund, NRW, Germany”  | Radwan Menzer    | [Pexels](https://pexels.com/@radwanmenzer) |
 | Trip Card    | “Aerial view of Camp Nou stadium, Barcelona” | Iakov Filimonov     | [Dreamstime](https://www.dreamstime.com)|
@@ -174,9 +141,6 @@ All images were curated to support editorial storytelling and visual rhythm. Eac
 All images were sourced ethically, copyright free and optimized for grading-safe and commercial deployment. Attribution details are listed where required.
 
 
-
-
-
 ## 🧮 Wireframes
 
 
@@ -184,23 +148,23 @@ Wireframes were created to guide layout decisions and ensure responsive clarity.
 
 🏠 Home Page Wireframe
 Features: Hero section, featured trips, navigation bar
-Screenshot: 1[Homepage Wireframe](/assets/images/screenshot-index.png)
+Screenshot: 1[Homepage Wireframe](/assets/images/screenshots/screenshot-index.png)
 Notes: Establishes visual rhythm and trip hierarchy
 
 
 🌍 Destinations Wireframe
 Features: Grid of featured trips, destination filters
-Screenshot: ![Destinations wireframe](/assets/images/screenshot-trip-card.png)
+Screenshot: ![Destinations wireframe](/assets/images/screenshots/screenshot-trip-card.png)
 Notes: Supports modular expansion and editorial grouping
 
 ℹ️ Info Page Wireframe
 Features: How it works, What’s included, FAQs, Fan Experience Video, Testimonials
-Screenshot: ![Info page wireframe](/assets/images/screenshot-info.png)
+Screenshot: ![Info page wireframe](/assets/images/screenshots/screenshot-info.png)
 Notes: Editorial clarity through sectioning and visual anchors
 
 📬 Contact Page Wireframe
 Features: Form structure, social icons, footer layout
-Screenshot: ![contact page wireframe](/assets/images/screenshot-contact.png)
+Screenshot: ![contact page wireframe](/assets/images/screenshots/screenshot-contact.png)
 Notes: Balanced layout with clear CTA and accessibility cues
 
 These wireframes informed the modular structure and helped maintain hierarchy across devices. Each screenshot reflects layout intent and editorial clarity.
@@ -214,7 +178,7 @@ sports-voyager/
 ├── info.html                # All info and Q&A |
 ├── contact.html             # Dedicated contact form page|
 ├── README.md                # Project documentation|
-** Html made for each trips and destinations not listed.
+
 ├── assets/
 │   ├── css/
 │   │   ├── base.css         # Base and global styles
@@ -237,9 +201,9 @@ sports-voyager/
 │       ├── Barcelona-1.jpg  # Destination imagery
 │       ├── barcelona-2.jpg  # Destination imagery
 │       ├── dortmund-1.jpg   # Destination imagery
-│       ├── dortmund-fan.jpg # Editorial background
-│       └── ...
-
+│       ├── dortmund-fan.jpg # Editorial testimonial image
+│       ├── hero-bg.jpg      # Homepage hero background
+│       └── logo-card.jpg    # Branding asset
 
 
 
@@ -256,20 +220,30 @@ Each HTML file uses semantic tags (`<header>`, `<main>`, `<section>`, `<article>
 - ✅ Modular CSS with responsive layout
 - ✅ Editorial hero section and trip cards
 - ✅ Social media icons with hover transitions
+- ✅ Testimonials and Video
+- ✅ Contact Form
+  
 
 ---
 
 ## 🧪 Testing
 
-### ✅ Validation
-- All pages passed W3C HTML and CSS validation
-- No critical errors flagged
 
-### ✅ User Stories
-- First-time visitors can understand site purpose instantly
-- Navigation is readable and intuitive
-- CTA buttons are functional and accessible
-- Contact form tested for validation and confirmation
+
+### ✅ Validation
+
+  ✅ The site was tested with the WAVE WebAIM Accessibility Evaluation Tool, which reported 0 errors and 0 contrast errors, confirming that the design meets accessibility standards (with only minor alerts for redundant alt text).
+  All pages passed W3C HTML and CSS validation
+
+  ✅ The site’s CSS was tested using the W3C Jigsaw CSS Validator.
+  All custom stylesheets passed without critical errors.
+  Minor warnings related to CSS variables and third-party libraries (e.g. Font Awesome) are expected and do not affect browser rendering.
+  ![CSS Validation Screenshot](assets/images/screenshots/css-validation.png)
+
+  ✅ The site’s HTML was tested using the W3C Markup Validation Service.
+  All pages passed without critical errors.
+  Minor warnings (e.g. redundant attributes or empty alt tags) were reviewed and do not affect accessibility or rendering.
+  ![HTML Validation Screenshot](assets/images/screenshots/html-validation.png)
 
 ### ✅ Browser Testing
 
@@ -288,6 +262,44 @@ Each HTML file uses semantic tags (`<header>`, `<main>`, `<section>`, `<article>
 - Accessibility: 91
 - Best Practices: 94
 
+
+### ✅ Testing – User Stories
+
+The following section demonstrates how the website meets the expectations outlined in the original user stories. Each story is followed by a brief explanation and a supporting screenshot.
+
+👤 As a first-time visitor, I want to understand what the site offers quickly.
+✅ Solution: The homepage features a bold hero banner with a clear tagline and CTA button, supported by a short intro paragraph and visual cues.
+📸 Screenshot: Homepage hero section with tagline and CTA
+![Homepage Hero](assets/images/screenshots/homepage-hero.png)
+
+
+
+🧭 As a sports and travel enthusiast, I want to browse destinations.
+✅ Solution: The “Destinations” section uses interactive cards with images, a descriptions and hover effects for clicking a destinations accordingly.
+📸 Screenshot: Destination card section
+![Sport Filter Cards](assets/images/screenshots/destinations.png)
+
+
+
+📱 As a mobile user, I want the site to be easy to use on my phone or my tablet.
+✅ Solution: The layout is fully responsive, navigation, stacked content, and touch-friendly buttons.
+📸 Screenshot: Mobile layout home page
+![Mobile Layout](assets/images/screenshots/mobile-layout.png)
+
+
+
+
+🧠 As a visually impaired user, I want good contrast and keyboard accessibility.
+✅ Solution: The site uses high-contrast gold-on-charcoal tones, visible focus states, and semantic HTML. Tested with WAVE accessibility tool.
+📸 Screenshot: WAVE results showing 0 errors
+![WAVE Accessibility](assets/images/screenshots/wave-results.png)
+
+
+🎯 As a site visitor, I want clear navigation and CTAs, so I can move through the site without confusion.  
+✅ Solution: The navigation bar is consistent across all pages, with clear links to Home, Destinations, Info, and Contact. CTA buttons are styled in gold for visibility.  
+📸 Screenshot: Navigation bar with highlighted CTA  
+![Navigation Screenshot](assets/images/screenshots/navigation.png)
+
 ---
 
 ## 🐞 Known Bugs
@@ -303,11 +315,10 @@ This site is designed to be deployed as a static project using GitHub Pages.
 
 
 
-## 🌍 How to View the Website (for visitors)
-👉 [Live Site](https://Pierre-Louis789.github.io/sports-voyager1/)
+## 🌍 How to View the Website
 
  - Visit the Website
-👉 👉 [https://Pierre-Louis789.github.io/sports-voyager1/](https://Pierre-Louis789.github.io/sports-voyager1/)`
+👉 [https://Pierre-Louis789.github.io/sports-voyager1/]
 - Browse the Pages
 - 🏠 Home: Overview of featured football weekends
 - 🧳 Destinations: Explore matchday trips across Europe
@@ -323,7 +334,6 @@ The site is fully responsive—optimized for both desktop and mobile viewing.
 - No installation needed—just open the link in your browser.
 - Best viewed in Edge, Chrome, Firefox, or Safari.
 - All images and styles are ethically sourced and performance-optimized.
-
 
 
 ---
