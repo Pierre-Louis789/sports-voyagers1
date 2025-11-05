@@ -407,8 +407,7 @@ This site is designed to be deployed as a static project using GitHub Pages.
 
 ## 🌍 How to View the Website
 
- - Visit the Website
-👉 [https://Pierre-Louis789.github.io/sports-voyager1/]
+ - Visit the website : https://pierre-louis789.github.io/sports-voyagers1/
 - Browse the Pages
 - 🏠 Home: Overview of featured football weekends
 - 🧳 Destinations: Explore matchday trips across Europe
